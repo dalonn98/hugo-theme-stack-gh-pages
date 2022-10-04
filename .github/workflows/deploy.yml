@@ -46,7 +46,7 @@ jobs:
               run: hugo --minify --gc
 
             - name: Deploy 🚀
-              uses: dalonn98/hugo-theme-stack-gh-pages@1.0.1
+              uses: dalonn98/hugo-theme-stack-gh-pages
               with:
                   branch: gh-pages
                   folder: public
